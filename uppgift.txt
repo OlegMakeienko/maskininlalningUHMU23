@@ -1,0 +1,54 @@
+Uppgiften är individuell
+Förberedelser
+Projektarbete kommer att bestå av ett problem som du skapar baserat på något dataset. Exempelvis så kan det vara ett dataset väder under senaste året där målet är att förutspå hur troligt det är att ett norrsken kan synas, att utifrån konsumtion förutspå förväntade inkomster m.m.. Målet är inte att skapa ett program med god förutsägbarhet, målet är att kunna utvärdera resultatet med hänsyn till vald algoritm.
+
+Förberedelserna innebär att du
+Hitta intressant data
+Få fram något resultat
+bra eller dåligt, optimera senare..
+Bestämma dig för 3 (minst 2) algoritmer som du anser är relevant för ditt dataset.
+Ifall algoritmen ger ett “dåligt” resultat så ska detta vara med i redovisningen.
+Examination del 1 - Maskininlärning (ML)
+Deadline: 21:a mars 09:00
+
+Denna uppgift erbjuder en möjlighet för den studerande att redovisa att denna besitter förmågan att använda python i syfte att utveckla program som använder maskininlärning. Observera att Jupyter ska användas i lösningen.
+
+Välja ett maskininlärningsproblem
+Studerande har valt ett dataset som denna formulerat ett problem till. Syftet är att studerande ska försöka finna en algoritm som är välanpassad för att lösa problemet samt dokumentera problemet under pågående utveckling.
+
+Optimera lösningen
+Studerande förväntas utföra någon optimering på datasetet för att hypotetiskt producera ett bättre svar. Formuleringen är hypotetisk då slumpen i somliga fall kan skapa ett sämre resultat även om optimeringen är välgrundad.
+
+Här bör det även framgå varför en optimering görs genom användandet av grafer. Exempelvis så kan ett linjärt beroende påvisas av ett scatterplot av två features.
+Valet av hyperparameterar ingår i redovisningen.
+
+– Viktigt –
+Ett “bra” resultat är relativt datasetet. Om sannolikheten att en människa kan göra en god chansning utan användningen av en maskin så är tanken att ML ska producera en bättre “chansning”.
+Form och bedömning
+All bedömning sker på kvalitéen av lösning och förmåga att redovisa resultatet. Dokumentation i koden förväntas vara på en nivå där den förklarar varför koden har valts som lösning för ett problem. Betoning på varför (inte hur) då koden förväntas vara självdokumenterad genom väl valda variabler och funktionsnamn. Exempel nedanför:
+
+
+All kod skickas som en länk till ett github-repo via LMZ:en. Studerande ska skicka in lösningen som en notebook fil (.ipynb).
+
+Redovisning
+Formatet för redovisning är
+Presentera data och valt problem
+Presentera de algoritmer som valts
+Förklara varför respektive algoritm är lämpligt för valt problem
+Presentera valda optimeringar, ex. vilka hyperparameter som sattes och hur dessa värden påverkar lösningen.
+
+Fusk och Plagiat
+Medan det är okej att hämta inspiration och förklaringar från nätet så ska dessa ej användas i inlämnade uppgifter. Syftet med att redovisningen är för att studerande ska resonera kring kodens syfte och vad den är tänkt att lösa. I samband med dokumentationen förväntas studerande anpassa koden efter problemets karaktär och på så vis undvika plagiat.
+
+Om koden ej anpassas eller endast mindre förändringar sker (exempelvis utbyte av variabelnamn) så bör en länk bifogas där det tydligt framgår vad som studerande har skapat och vad som är taget från en annan källa. Vidare så bör även studerande undersöka om källan tillåter kopierande av kod.
+
+Inlämning och bedömning
+Inlämning sker via azomo. Godkända format är en länk till ett github-repo med en ipynb lösning. Innan länken skickas in är det viktigt, och förväntas det, att studerande verifierar att länken är tillgänglig för bedömande lärare.
+Betygskriterier
+Betyget på kursen sätts utifrån kodkvalité och dokumentation, vid behov kan ett handledningssamtal bokas in. Plagierad kod, inklusive AI genererad kod, kommer att leda till ett underkänt betyg och att UL uppmärksammas om misstänkt fusk.
+Godkänt
+För betyget godkänt i kursen ska studerande visa godtagbar förståelse för ett dataset, och dess trender. Vidare så ska val av analys, optimeringar och ML algoritmer väljas med godtagbara argument i redovisningen. Koden ska innehålla minst en graf som beskriver data:ns trend.
+Väl godkänt
+Kriterier för Godkänt är att trenderna i data noggrant analyserats med lämpliga grafer för det beskrivna problemet. Valet av optimering och ML algoritmer ska göras med goda argument.
+
+
